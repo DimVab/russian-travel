@@ -1,0 +1,23 @@
+.root {
+  max-width: calc(100vw - 96px);
+  padding: 28px 48px 24px;
+  background-color: #2A2C2F;
+  box-sizing: content-box;
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+  .root {
+    max-width: calc(100vw - 48px);
+    padding: 28px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .root {
+    max-width: calc(100vw - 32px);
+    padding: 16px 16px 24px;
+  }
+}

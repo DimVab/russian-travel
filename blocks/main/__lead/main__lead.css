@@ -1,0 +1,15 @@
+.main__lead {
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .main__lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main__lead {
+    margin-bottom: 64px;
+  }
+}

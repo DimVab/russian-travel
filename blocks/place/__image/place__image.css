@@ -1,0 +1,21 @@
+.place__image {
+  grid-area: image;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 525px) {
+  .place__image {
+    max-width: calc(100% + 48px);
+    position: relative;
+    left: -24px;
+  }
+}
+/* в этом блоке сделал переход раньше: с 525px, тк примерно с этого размера элементы начинают наезжать друг на друга */
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    max-width: calc(100% + 32px);
+    position: relative;
+    left: -16px;
+  }
+}

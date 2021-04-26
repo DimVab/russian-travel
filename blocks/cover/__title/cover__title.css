@@ -1,0 +1,19 @@
+.cover__title {
+  max-width: 560px;
+  margin: 0 auto 32px;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+@media screen and (max-width: 560px) {
+/* переход с 560px, тк собственный размер cover__title 560 */
+  .cover__title  {
+    max-width: 100%;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

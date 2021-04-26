@@ -1,0 +1,9 @@
+.lead__caption {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em; /* здесь я посчитал, что letter-spacing будет целесообразнее оставить в относительной величине, а не абсолютной, тк при уменьшении размера шрифта элемента не нужно будет менять ещё и отступ между буквми */
+  text-transform: uppercase;
+}
