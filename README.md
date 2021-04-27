@@ -28,4 +28,4 @@
 В промежутках между данными значениями используется резиновая вёрстка и проект может иметь незначительные отличия
 
 **Ссылка на проект:**
-https://github.com/DimVab/russian-travel/settings/pages
+https://dimvab.github.io/russian-travel/
