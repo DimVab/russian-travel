@@ -6,6 +6,7 @@
   display: grid;
   grid-auto-flow: column;
   gap: 18px;
+  -ms-flex-line-pack: end;
   align-content: end;
   margin-bottom: 6px;
 }
