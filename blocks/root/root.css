@@ -3,10 +3,17 @@
   padding: 28px 48px 24px;
   background-color: #2A2C2F;
   box-sizing: content-box;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
+
+
 
 @media screen and (max-width: 1023px) {
   .root {
