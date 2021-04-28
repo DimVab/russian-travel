@@ -8,13 +8,25 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 816px) {
   .lead__title {
     max-width: 100%;
+  }
+}
+/* с этой точки ширина блока будет меньше, чем на макете (720px), но сам текста благодаря сохраняющемуся font-size будет таким же, как на макете. Теперь блок не будет слишком широким, чтобы появлялся горизонтальный скролл */
+
+@media screen and (max-width: 767px) {
+  .lead__title {
     font-size: 60px;
   }
 }
-/* в этих местах заголовок из-за своего шрифта становится шире экрана */
+
+@media screen and (max-width: 500px) {
+  .lead__title {
+    font-size: 50px;
+  }
+}
+/* Шрифт уменьшается, чтобы не появлялся горизонтальный скролл */
 
 @media screen and (max-width: 425px) {
   .lead__title {

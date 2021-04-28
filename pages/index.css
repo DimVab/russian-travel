@@ -28,14 +28,14 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_font-weight_bold/intro__list-item_font-weight_bold.css);
 /* блок photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
-@import url(../blocks/photo-grid/__item/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* блок places */
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
-@import url(../blocks/places/__place/places__place.css);
 /* блок place */
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);

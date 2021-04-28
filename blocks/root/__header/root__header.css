@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .header {
+  .root__header {
     margin-bottom: 48px;
   }
 }
