@@ -2,14 +2,22 @@
   margin: 0 0 92px;
 }
 
+@media screen and (max-width: 1279px) {
+  .main__cover {
+    margin-left: -48px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .main__cover {
     margin-bottom: 88px;
+    margin-left: -24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .main__cover {
     margin-bottom: 64px;
+    margin-left: -16px;
   }
 }
