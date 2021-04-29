@@ -3,7 +3,7 @@
   margin: 0;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.055;
+  line-height: 1.06;
   grid-area: title;
 }
 
@@ -17,5 +17,6 @@
 @media screen and (max-width: 525px) {
   .place__title {
     font-size: 32px;
+    line-height: 1.09;
   }
 }

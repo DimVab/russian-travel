@@ -1,15 +1,15 @@
-.section_narrow {
+.section_width_narrow {
   max-width: calc(100vw - 296px);
 }
 
 @media screen and (max-width: 1279px) {
-  .section_narrow {
+  .section_width_narrow {
     max-width: calc(100vw - 96px);
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .section_narrow {
+  .section_width_narrow {
     max-width: 100%;
   }
 }

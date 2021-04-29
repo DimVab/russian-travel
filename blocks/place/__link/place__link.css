@@ -3,11 +3,11 @@
   text-decoration: underline;
   font-size: 18px;
   line-height: 1.22;
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
 .place__link:hover {
   opacity: .8;
-  -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
-  transition: opacity 0.5s;
 }
