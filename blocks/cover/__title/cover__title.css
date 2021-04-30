@@ -13,7 +13,7 @@
 /* переход с 560px, тк собственный размер cover__title 560 */
   .cover__title  {
     max-width: 100%;
-    margin-bottom: 16px;
+    margin: 0 16px 16px;
     font-size: 32px;
     line-height: 1.09;
   }

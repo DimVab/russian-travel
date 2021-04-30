@@ -3,21 +3,3 @@
   display: block;
   margin-bottom: 8px;
 }
-
-@media screen and (max-width: 1023px) {
-  .lead__image {
-    max-width: calc(100% + 48px);
-    transform: translate(-24px, 0);
-    /* если данное свойство использовать нельзя, наведите пожалуйста на мысль, какое всё-таки свойство правильное, чтобы дочерний элемент игнорировал родительский паддинг?
-    margin-left: -n; - нельзя
-    position: relatife: left: -n / right: n - так и не понял, можно или нельзя
-    а по другому не знаю как, кроме как убрать паддинги root, но тогда всем секциям придётся прописывать дополнительные марджины, а это снизит универсальность кода */
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead__image {
-    max-width: calc(100% + 32px);
-    transform: translate(-16px, 0);
-  }
-}

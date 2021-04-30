@@ -1,15 +1,21 @@
-.photo-grid {
-  max-width: calc(100% - 96px);
+.intro {
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    max-width: calc(100% - 96px);
+  }
 }
 
 @media screen and (max-width: 1023px) {
-  .photo-grid {
+  .intro {
     max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 425px) {
-  .photo-grid {
+  .intro {
     max-width: calc(100% - 32px);
   }
 }

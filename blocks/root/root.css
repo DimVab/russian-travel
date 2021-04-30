@@ -1,10 +1,6 @@
 .root {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  max-width: 1184px;
-  /* не совсем понял замечания о несоответствии на расширениях больше 1280px при условии что максимальное разрешение макета 1280px. Значит ли это что максимальная ширина проекта должна быть 1280 и больше он не должен растягиваться? */
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 28px 48px 24px;
   background-color: #2A2C2F;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: -webkit-box;
@@ -19,16 +15,4 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-}
-
-@media screen and (max-width: 1023px) {
-  .root {
-    padding: 28px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .root {
-    padding: 16px 16px 24px;
-  }
 }
